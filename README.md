@@ -66,7 +66,3 @@ This repo contains the **FMOD Studio project** for the game
 ---
 
 That way your team has a **step-by-step beginner-friendly guide** with zero Git knowledge needed.
-
----
-
-Do you want me to also prepare a **second README for the Unity repo**, so it explains how Unity links to this FMOD repo (so your artists see their changes live in-game)?
