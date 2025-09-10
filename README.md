@@ -64,5 +64,3 @@ This repo contains the **FMOD Studio project** for the game
 * If something breaks → message the programmer (me)
 
 ---
-
-That way your team has a **step-by-step beginner-friendly guide** with zero Git knowledge needed.
