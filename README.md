@@ -4,7 +4,7 @@
 
 This repository contains the **FMOD Studio project** for the Da-Dash After Story game, designed specifically for audio professionals and sound designers.
 
-**Perfect for:**
+**Perfect for: (just skip this ..)**
 - Music composers and sound designers
 - Audio implementers working on game audio
 - Team members who need to work with audio without Unity setup
@@ -60,7 +60,7 @@ This repository contains the **FMOD Studio project** for the Da-Dash After Story
 4. **Click "Commit to main"** then **"Push origin"**
 
 ### Staying Up to Date
-1. **Before starting work:** Open GitHub Desktop and click **"Fetch origin"** → **"Pull origin"**
+1. **Before starting work:** Open GitHub Desktop and click **"Fetch origin"** → **"Pull origin"** ( ALWAYS )
 2. **This ensures you have the latest changes** from other team members
 3. **Resolve any conflicts** if they arise (rare with FMOD projects)
 
@@ -75,7 +75,7 @@ This repository contains the **FMOD Studio project** for the Da-Dash After Story
 - **Metadata files** - Let FMOD manage these automatically
 
 ### Recommended Workflow
-1. **Always pull first** - Get the latest version before starting
+1. **Always pull first** - Get the latest version before starting (Or some changes others made might be erased)
 2. **Work in focused sessions** - Complete related changes together
 3. **Test your audio** - Play through events before building
 4. **Build banks** - Generate fresh `.bank` files
@@ -88,14 +88,12 @@ This repository contains the **FMOD Studio project** for the Da-Dash After Story
 
 ### Common Issues
 - **Missing audio files?** Check if they're committed to the repository
-- **Banks not updating in Unity?** Make sure you built after your changes
 - **Project won't open?** Try pulling the latest changes first
 - **Merge conflicts?** Contact the lead programmer for assistance
 
 ### Need Help?
-- **Technical issues:** Contact the lead programmer
-- **Audio questions:** Consult the team's audio lead
-- **Git problems:** Check GitHub Desktop's help documentation
+- **Technical issues:** Contact the lead programmer (me)
+- **Git problems:** Check GitHub Desktop's help documentation or (me -hehe)
 
 ---
 
@@ -106,7 +104,7 @@ Da-Dash-After-Story_Fmod/
 ├── Assets/                            # Audio source files
 ├── Build/                            # Generated bank files (auto-generated)
 ├── Metadata/                         # FMOD metadata (auto-managed)
-└── .cache/                           # Temporary files (auto-managed)
+└── .cache/                           # Temporary files (auto-managed) (don't worry if you don't see this - you should build to appear)
 ```
 
 ---
