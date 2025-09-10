@@ -11,7 +11,7 @@ This repo contains the **FMOD Studio project** for the game
 * [FMOD Studio (free download)](https://www.fmod.com/download)
 * GitHub Desktop (recommended) or Git command line
 
----
+
 
 ## 📥 Getting the project
 
@@ -20,7 +20,7 @@ This repo contains the **FMOD Studio project** for the game
 3. Choose a folder on your computer (e.g. `Projects/DDAS-FMOD`).
 4. Done — now you have the FMOD project locally!
 
----
+
 
 ## 🎼 Working on audio
 
@@ -31,7 +31,7 @@ This repo contains the **FMOD Studio project** for the game
 
    * This updates the `.bank` files Unity will use
 
----
+
 
 ## ⬆️ Sending updates
 
@@ -40,7 +40,7 @@ This repo contains the **FMOD Studio project** for the game
 3. Write a short message (example: `Added dash sound + random pitch`)
 4. Click **Commit & Push**
 
----
+
 
 ## ⬇️ Getting updates
 
@@ -48,7 +48,7 @@ This repo contains the **FMOD Studio project** for the game
 2. Click **Fetch origin** → **Pull**
 3. Done! You now have the latest project version
 
----
+
 
 ## ❌ Things you don’t need to touch
 
@@ -62,5 +62,3 @@ This repo contains the **FMOD Studio project** for the game
 * Always **Pull before you start working**, so you’re up to date
 * Always **Commit & Push after you finish**, so others get your changes
 * If something breaks → message the programmer (me)
-
----
