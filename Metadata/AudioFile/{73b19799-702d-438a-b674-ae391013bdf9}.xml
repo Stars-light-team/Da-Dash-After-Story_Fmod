@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{73b19799-702d-438a-b674-ae391013bdf9}">
+		<property name="assetPath">
+			<value>music/DD Awaken Ground Demo1.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>156.99591836734695</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{4fb2b81c-0e04-4523-91e5-97d380d6a155}</destination>
+		</relationship>
+	</object>
+</objects>
