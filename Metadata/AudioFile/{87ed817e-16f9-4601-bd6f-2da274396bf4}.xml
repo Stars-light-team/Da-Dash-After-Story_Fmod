@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{87ed817e-16f9-4601-bd6f-2da274396bf4}">
+		<property name="assetPath">
+			<value>SFX/Player/DD_SFX_BasicDashTest.ogg</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>12.000022675736961</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{4fb2b81c-0e04-4523-91e5-97d380d6a155}</destination>
+		</relationship>
+	</object>
+</objects>

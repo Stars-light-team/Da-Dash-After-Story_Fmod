@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{1a8e76d8-0847-4fc8-9199-8994f46167d0}">
+		<property name="assetPath">
+			<value>SFX/Player/DD_SFX_FootStepsGrass1.ogg</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>3.9024489795918367</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{4fb2b81c-0e04-4523-91e5-97d380d6a155}</destination>
+		</relationship>
+	</object>
+</objects>
