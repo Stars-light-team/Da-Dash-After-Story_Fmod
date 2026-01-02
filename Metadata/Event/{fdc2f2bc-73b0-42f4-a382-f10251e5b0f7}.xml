@@ -158,13 +158,13 @@
 	</object>
 	<object class="SingleSound" id="{68d93f9e-fb52-424f-89e5-588f70a04087}">
 		<property name="length">
-			<value>0.090000000000000011</value>
+			<value>0.025000000000000001</value>
 		</property>
 		<property name="timelockedOffset">
-			<value>0.67000000000000015</value>
+			<value>0.69000000000000017</value>
 		</property>
 		<property name="volume">
-			<value>-10.5</value>
+			<value>-3.5</value>
 		</property>
 		<relationship name="modulators">
 			<destination>{11da186a-2d54-4d52-8bb6-bbd53a07ce1c}</destination>
@@ -287,17 +287,18 @@
 	</object>
 	<object class="SingleSound" id="{e00f2eb2-f86b-46a5-a64c-76a3d932082e}">
 		<property name="length">
-			<value>0.34999999999999992</value>
+			<value>0.30499999999999994</value>
 		</property>
 		<property name="timelockedOffset">
-			<value>5.5499999999999972</value>
+			<value>5.5949999999999962</value>
 		</property>
 		<property name="volume">
-			<value>-23.5</value>
+			<value>-18</value>
 		</property>
 		<relationship name="modulators">
 			<destination>{39c2d363-f959-4de9-81b0-390e2bfbb27f}</destination>
 			<destination>{80edce77-4ae5-4b18-a16d-6623093842b6}</destination>
+			<destination>{dfdd105a-a926-4db8-933c-6bfac87989b5}</destination>
 		</relationship>
 		<relationship name="audioFile">
 			<destination>{87ed817e-16f9-4601-bd6f-2da274396bf4}</destination>
@@ -332,7 +333,7 @@
 			<value>volume</value>
 		</property>
 		<property name="amount">
-			<value>6.5</value>
+			<value>3.5</value>
 		</property>
 	</object>
 	<object class="Automator" id="{46e83e53-cef2-4d45-8916-f997ee94d3cf}">
@@ -397,7 +398,7 @@
 			<value>pitch</value>
 		</property>
 		<property name="amount">
-			<value>19</value>
+			<value>0.5</value>
 		</property>
 	</object>
 	<object class="RandomizerModulator" id="{80edce77-4ae5-4b18-a16d-6623093842b6}">
@@ -405,7 +406,12 @@
 			<value>volume</value>
 		</property>
 		<property name="amount">
-			<value>19.5</value>
+			<value>5</value>
+		</property>
+	</object>
+	<object class="ADSRModulator" id="{dfdd105a-a926-4db8-933c-6bfac87989b5}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>pitch</value>
 		</property>
 	</object>
 	<object class="Automator" id="{b2c97180-c5dc-417c-9793-3c1ebe7ee1ec}">
@@ -419,6 +425,7 @@
 	<object class="MixerBusEffectChain" id="{8d7cbcb2-ce9f-471b-bf46-988bbd636ada}">
 		<relationship name="effects">
 			<destination>{2dd041ef-0db0-41fb-adb7-35094322103a}</destination>
+			<destination>{285dd727-77e5-4904-9502-026cd25f5e31}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{fb1fd4a9-fd07-4b7a-90c5-f46dacc93a88}" />
@@ -494,6 +501,32 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{2dd041ef-0db0-41fb-adb7-35094322103a}" />
+	<object class="SFXReverbEffect" id="{285dd727-77e5-4904-9502-026cd25f5e31}">
+		<property name="decayTime">
+			<value>180</value>
+		</property>
+		<property name="lateDelay">
+			<value>45</value>
+		</property>
+		<property name="HFReference">
+			<value>2400</value>
+		</property>
+		<property name="HFDecayRatio">
+			<value>20.5</value>
+		</property>
+		<property name="density">
+			<value>64.5</value>
+		</property>
+		<property name="lowShelfFrequency">
+			<value>410</value>
+		</property>
+		<property name="wetLevel">
+			<value>1</value>
+		</property>
+		<property name="dryLevel">
+			<value>-8</value>
+		</property>
+	</object>
 	<object class="AutomationPoint" id="{18140814-c4d6-47fd-aae9-6edf76377101}">
 		<property name="position">
 			<value>0</value>
